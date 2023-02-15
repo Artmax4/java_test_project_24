@@ -1,9 +1,9 @@
-package main.java.students.student_maksim_turcin.lesson_7_homeworks.level_1.Task_1;
+package students.student_maksim_turcin.lesson_7_homeworks.level_1.Task_1;
 
 
 public class WordServiceDemo {
     public static void main(String[] args) {                  // Метод для нахождения повторяющегося слова
-        WordService mostFrequentWord = new WordService();     // Обращение к классу WordService за помощью
+        main.java.students.student_maksim_turcin.lesson_7_homeworks.level_1.Task_1.WordService mostFrequentWord = new main.java.students.student_maksim_turcin.lesson_7_homeworks.level_1.Task_1.WordService();     // Обращение к классу WordService за помощью
         String textToSort = "Подсказка: если вы не можете придумать как разбить эту задачу\n" +
                 "на подзадачи, пожалуйста попросите помощи! Умение попросить помощи,\n" +
                 "когда это нужно очень цениться в ИТ. Представьте, что вы работаете\n" +
