@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: students.student_maksim_turcin.lesson_13_homeworks.level_1.TaxCalculatorImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
