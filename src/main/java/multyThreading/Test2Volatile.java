@@ -8,7 +8,6 @@ public class Test2Volatile {
 
         Scanner scanner = new Scanner(System.in);
         scanner.nextLine();
-
         myThread.shutdown();
     }
 }
