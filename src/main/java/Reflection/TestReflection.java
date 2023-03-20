@@ -2,8 +2,10 @@ package Reflection;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class TestReflection {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -13,7 +15,7 @@ public class TestReflection {
         Class personClass = Person2.class;
         //  Class personClass3 = Class.forName("Person");
 
-  /*      Method[] methods = personClass.getMethods();
+        Method[] methods = personClass.getMethods();
         for (Method method : methods) {
             System.out.println(method.getName() + ", "
                     + method.getReturnType() + ", " + Arrays.toString(method.getParameterTypes()));
@@ -24,7 +26,7 @@ public class TestReflection {
             System.out.println(field.getName() + ", "
                     + field.getType());
         }
-   */
+
         Annotation[] annotations = personClass.getAnnotations();
         for (Annotation annotation : annotations) {
             if (annotation instanceof Author) {
@@ -33,3 +35,4 @@ public class TestReflection {
         }
     }
 }
+
