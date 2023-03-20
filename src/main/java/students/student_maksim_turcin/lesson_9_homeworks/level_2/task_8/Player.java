@@ -1,4 +1,4 @@
-package main.java.students.student_maksim_turcin.lesson_9_homeworks.level_2.task_8;
+package students.student_maksim_turcin.lesson_9_homeworks.level_2.task_8;
 
 class Player {
 
